@@ -17,8 +17,8 @@
     "template_source": {
       "githubRepoUrl": "",
       "githubAccessToken": "",
-      "relativePathToTemplateFolder": "terraform/OpenStack/import/CAM",
-      "templateFileName": "main.tf"
+      "relativePathToTemplateFolder": "terraform/OpenStack",
+      "templateFileName": "import.tf"
     }
   },
   "metadata": {

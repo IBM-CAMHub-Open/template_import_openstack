@@ -17,7 +17,7 @@
     "template_source": {
       "githubRepoUrl": "",
       "githubAccessToken": "",
-      "relativePathToTemplateFolder": "terraform/OpenStack",
+      "relativePathToTemplateFolder": "openstack/terraform",
       "templateFileName": "import.tf"
     }
   },

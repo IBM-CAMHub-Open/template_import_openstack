@@ -36,6 +36,10 @@ variable "network_0_fixed_ip_v4" {
   description = "The fixed IPv4 address of the instance"
 }
 
+variable "power_state" {
+  description = "Power state of the instance"
+}
+
 variable "security_groups" {
   type        = "list"
   description = "List of security groups"
@@ -55,6 +59,7 @@ resource "openstack_compute_instance_v2" "vm_1" {
   force_delete = "${var.force_delete}"
   stop_before_destroy = "${var.stop_before_destroy}"
   metadata = "${var.metadata}"
+  power_state = "${var.power_state}"
   network {
     name = "${var.network_0_name}"
     fixed_ip_v4 = "${var.network_0_fixed_ip_v4}"

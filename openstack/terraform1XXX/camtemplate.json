@@ -1,7 +1,7 @@
 {
-  "name": "Import existing VM - PowerVC and OpenStack",
+  "name": "Import existing VM - PowerVC and OpenStack for Terraform 1.x.x",
   "description": "This template can be used to import an existing virtual machine into IBM Cloud Automation Manager.",
-  "version": "1.0",
+  "version": "1.2",
   "imageUrl": "",
   "image": "",
   "type": "import",
@@ -17,7 +17,7 @@
     "template_source": {
       "githubRepoUrl": "",
       "githubAccessToken": "",
-      "relativePathToTemplateFolder": "openstack/terraform",
+      "relativePathToTemplateFolder": "openstack/terraform1XX",
       "templateFileName": "import.tf"
     }
   },
